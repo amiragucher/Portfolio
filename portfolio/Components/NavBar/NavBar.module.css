@@ -1,6 +1,7 @@
 .Sticky{
 	top: 0.001px;
 	position: sticky;	
+	
 }
 
 .container {
@@ -31,7 +32,7 @@
 	display: block;
 	color: #34495e;
 	font-size: .99em;
-	color: rgb(70, 81, 77);
+	color: #FFC44D;
 	
 }
 
@@ -40,14 +41,14 @@
 	align-items: center;
 	padding-top: .4em;
 	padding-bottom: .4em;
-	background-color: rgba(231, 183, 40, 1);
+	background-color: #F24E1E;
 	-webkit-box-shadow: 0px 0px 14px 0px #2b3231;
 	-moz-box-shadow: 0px 0px 14px 0px #7c7c7c;
 	box-shadow: 0px 0px 14px 0px #747474;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	min-width: 100vw;
+	min-width: 95vw;
 
 }
 
