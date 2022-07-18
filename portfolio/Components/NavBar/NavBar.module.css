@@ -1,0 +1,92 @@
+.Sticky{
+	top: 0.001px;
+	position: sticky;	
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0;	
+	
+}
+
+.mainnav>*{
+	display: inline;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2em;
+}
+
+.mainnav {
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	color: #34495e;
+	font-size: .99em;
+	color: rgb(70, 81, 77);
+	
+}
+
+.header {
+	justify-content: center;
+	align-items: center;
+	padding-top: .4em;
+	padding-bottom: .4em;
+	background-color: rgba(231, 183, 40, 1);
+	-webkit-box-shadow: 0px 0px 14px 0px #2b3231;
+	-moz-box-shadow: 0px 0px 14px 0px #7c7c7c;
+	box-shadow: 0px 0px 14px 0px #747474;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	min-width: 100vw;
+
+}
+
+	.header {
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;	
+	}
+
+	.Cv {
+		padding-top: 4px;
+		padding-left: 1.5cm;
+		padding-bottom: 4px;
+		padding-right: 1.5cm;
+		border-radius: 5px;
+	} 
+
+	.About{
+		padding-top: 4px;
+		padding-left: 0.8cm;
+		padding-bottom: 4px;
+		padding-right: 0.8cm;
+		border-radius: 5px;
+	}
+
+	.Portfolio{
+		padding-top: 4px;
+		padding-left: 4px;
+		padding-bottom: 4px;
+		padding-right: 4px;
+		border-radius: 5px;
+	}
+
+	.Contact{
+		padding-top: 4px;
+		padding-left: 4px;
+		padding-bottom: 4px;
+		padding-right: 4px;
+		border-radius: 5px;
+	}
