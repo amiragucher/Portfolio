@@ -1,0 +1,8 @@
+.Avatar {
+    background-image: url("./Avatar.png");
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 8000px;
+    /* height: 10000px; */
+
+}

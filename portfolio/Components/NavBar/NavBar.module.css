@@ -1,6 +1,8 @@
 .Sticky{
 	top: 0.001px;
+
 	position: sticky;	
+
 	
 }
 
@@ -11,7 +13,8 @@
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 0;	
-	
+	top: 0.001px;
+	position: sticky;	
 }
 
 .mainnav>*{
@@ -19,7 +22,9 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 2em;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 
 .mainnav {
 	margin-top: 5px;
@@ -33,14 +38,17 @@
 	color: #34495e;
 	font-size: .99em;
 	color: #FFC44D;
-	
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	text-decoration-line: underline; 
+
 }
 
 .header {
 	justify-content: center;
 	align-items: center;
-	padding-top: .4em;
-	padding-bottom: .4em;
 	background-color: #F24E1E;
 	-webkit-box-shadow: 0px 0px 14px 0px #2b3231;
 	-moz-box-shadow: 0px 0px 14px 0px #7c7c7c;
@@ -48,14 +56,17 @@
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	min-width: 95vw;
+	min-width: 100vw;
+	margin-left: 0px;
+	font-style: italic;
+	width: 100vw;
 
 }
 
 	.header {
 		flex-direction: column;
 		align-items: center;
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 		max-width: 1150px;	
 	}
