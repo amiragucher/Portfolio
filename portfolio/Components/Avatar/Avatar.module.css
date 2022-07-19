@@ -1,8 +1,23 @@
 .Avatar {
     background-image: url("./Avatar.png");
     background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 8000px;
-    /* height: 10000px; */
+    min-height: 720px;
+    display: flex;
+    justify-content: center;
+    width: 780px;
+    margin-top: 3em;
 
 }
+
+/* .AvatarContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   margin-bottom: 0px;
+} */
+
+.HomePageContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+

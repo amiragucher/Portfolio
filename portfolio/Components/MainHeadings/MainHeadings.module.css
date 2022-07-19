@@ -1,6 +1,7 @@
+/* Title Design   */
 .MainHeading {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     font-style: italic;
@@ -11,18 +12,17 @@
     font-family: 'Barlow Condensed', sans-serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(96, 90, 90);
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);    
-    margin-top: 2em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);  
+    width: 800px;
     margin-bottom: 0px;
+    /* margin-left: 5em; */
 }
 
-
-
-
+/* SubHeading Design   */
 .SubHeading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
     font-style: italic;
     font-weight: 700;
     font-size: 60px;
@@ -34,9 +34,20 @@
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-.MainHeadingContainer{
+/* Container for both Design   */
+.MainTitleContainer{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-direction: column;  
     margin-left: 5em;
+    /* background-color: red; */
+}
+
+.HomePageContainer{
+    display: flex;
+    align-items: center;
+    max-width: 100vw;
+
+
 }
