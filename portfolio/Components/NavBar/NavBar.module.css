@@ -1,9 +1,7 @@
 .Sticky{
-	top: 0.001px;
 
+	/* top: 0.001px; */
 	position: sticky;	
-
-	
 }
 
 .container {
@@ -44,6 +42,8 @@
 	text-align: center;
 	text-decoration-line: underline; 
 	box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+	
+	
 
 }
 
@@ -61,6 +61,7 @@
 	margin-left: 0px;
 	font-style: italic;
 	width: 100vw;
+	
 
 }
 

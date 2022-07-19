@@ -5,3 +5,10 @@
     width: 100vw;
     height: 90vh;    
 }
+
+.MainTitleContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}

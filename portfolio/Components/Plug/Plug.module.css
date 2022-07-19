@@ -1,0 +1,21 @@
+.LowerPlug{
+    background-image: url("../Plug/LowerPlug.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+  
+}
+
+.HomePageContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32em;
+    margin-left: 2em;
+   
+}
+
+.UpperPlug{
+    background-image: url("../Plug/UpperPlug.png");
+    display: flex;
+    justify-content: flex-start;
+}

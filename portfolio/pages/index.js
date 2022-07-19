@@ -5,6 +5,8 @@ import NavBar from "../Components/NavBar/NavBar"
 import Avatar from "../Components/Avatar/Avatar"
 import HomePageContainer from "../Components/HomePageContainer/HomePageContainer"
 import MainTitleContainer from "../Components/HomePageContainer/MainTitleContainer"
+import AboutMe from "../Components/AboutMe/AboutMeArea";
+import Plug from "../Components/Plug/LowerPlug"
 
 
 export default function Home() {
@@ -12,13 +14,14 @@ export default function Home() {
     <div>
       <NavBar/>
       <HomePageContainer>
-        <MainTitleContainer>
+      <Plug/>
+      <MainTitleContainer>
       <MainHeadings/>
       <Subheading/>
       </MainTitleContainer>
       <Avatar/>
       </HomePageContainer>
-      
+      <AboutMe/>  
     </div>
   )
 }
