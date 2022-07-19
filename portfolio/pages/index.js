@@ -6,7 +6,9 @@ import Avatar from "../Components/Avatar/Avatar"
 import HomePageContainer from "../Components/HomePageContainer/HomePageContainer"
 import MainTitleContainer from "../Components/HomePageContainer/MainTitleContainer"
 import AboutMe from "../Components/AboutMe/AboutMeArea";
-import Plug from "../Components/Plug/LowerPlug"
+import QrCode from "../Components/QrCode/QrCode"
+// import UpperPlug from "../Components/UpperPlug/UpperPlug";
+// import LowerPlug from "../Components/LowerPlug/LowerPlug";
 
 
 export default function Home() {
@@ -14,10 +16,12 @@ export default function Home() {
     <div>
       <NavBar/>
       <HomePageContainer>
-      <Plug/>
+      {/* <UpperPlug/> */}
+      {/* <LowerPlug/> */}
       <MainTitleContainer>
       <MainHeadings/>
       <Subheading/>
+      <QrCode/>
       </MainTitleContainer>
       <Avatar/>
       </HomePageContainer>

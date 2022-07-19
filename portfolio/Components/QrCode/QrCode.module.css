@@ -1,0 +1,10 @@
+.QrCode {
+    background-image: url("./QR.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10em;
+}
