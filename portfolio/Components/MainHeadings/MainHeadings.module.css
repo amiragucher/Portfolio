@@ -15,15 +15,15 @@
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);  
     width: 800px;
     margin-bottom: 0px;
-    
+    margin-top: 2em;    
     
 }
 
 /* SubHeading Design   */
 .SubHeading {
-    /* display: flex;
+    display: flex;
     justify-content: flex-start;
-    align-items: center; */
+    align-items: center;
     font-style: italic;
     font-weight: 700;
     font-size: 60px;
@@ -41,6 +41,8 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;  
+    margin-left: 4em;
+
 
     /* background-color: red; */
 }
@@ -49,7 +51,7 @@
     display: flex;
     align-items: center;
     max-width: 100vw;
-    margin-top: 2em;
+
 
 
 
