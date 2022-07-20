@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Welcome to my portfolio!
-I am currently working on my first portfolio. This project is still in the process of being completed.
+I am currently working on my first portfolio. This project is still in the process of being completed. 🛠️
 
 **ToolBox**
 - Next js
