@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html,
 body {
   overflow-x: hidden;
   width: 100vw;
+  background-color: #02979D;
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 a {
