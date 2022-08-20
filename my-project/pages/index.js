@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import MainTitle from '../Components/MainTitle/MainTitle';
 import Avatar from '../Components/Avatar/Avatar';
 import AboutMe from '../Components/AboutMe/AboutMe';
+import ImageGallery from '../Components/ImageGallery/ImageGallery';
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
         </div>
         <div>
         <AboutMe/>
+        <ImageGallery/>
     </div>
     </>
   )
