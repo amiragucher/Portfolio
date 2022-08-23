@@ -17,16 +17,16 @@ export default function Navbar() {
                         CV
                     </a>
                 </Link>
-                <Link href="/#home" >  
+                {/* <Link href="/#home" >   */}
                 <a className="text-[#FFC44D] hidden md:flex items-center text-xl font-bold">
                     Portfolio
                 </a>
-                </Link>
-                <Link href="/#home">  
+                {/* </Link>
+                <Link href="/#home">   */}
                 <a className="text-[#FFC44D] hidden md:flex items-center text-xl font-bold">
                     Contact
                 </a>
-                </Link>
+                {/* </Link> */}
             </div>
             </div>
         </div>
