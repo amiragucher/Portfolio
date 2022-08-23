@@ -2,7 +2,8 @@ import { Carousel } from "antd";
 import React from "react";
 import 'antd/dist/antd.css';
 
-const ImageGallery = () => (
+export default function ImageGallery (){ 
+  return (
   // <div className=" flex justify-center self-center item-center w-full ">
     <Carousel className="flex justify-center self-center sm:mr-[15em] sm:ml-[15em]"autoplay>
         <img
@@ -20,4 +21,4 @@ const ImageGallery = () => (
   //  </div>
 );
 
-export default ImageGallery;
+  }
