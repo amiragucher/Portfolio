@@ -9,17 +9,19 @@ import ImageGallery from '../Components/ImageGallery/ImageGallery';
 
 export default function Home() {
   return (
-        <>
+  <div className="bg-[#02979D]">
         <Navbar/>
-        <div className="flex">
-        <MainTitle/>
+    <div className="flex">
+      <MainTitle/>
         <Avatar/>
-        </div>
-        <div>
-        <AboutMe/>
-       
     </div>
-    <ImageGallery/>
-    </>
+  <div>
+        <AboutMe/>
+  </div>
+        
+    <h1 className="flex justify-center text-6xl mb-4 mt-5 text-white">UI/UX Designs</h1>
+       <ImageGallery/>
+
+         </div>
   )
 }

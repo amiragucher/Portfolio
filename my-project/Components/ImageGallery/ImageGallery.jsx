@@ -1,51 +1,27 @@
 import { Carousel } from "antd";
 import React from "react";
 import Style from "./ImageGallery.module.css";
+import 'antd/dist/antd.css';
 
 const ImageGallery = () => (
-  <div className={Style.imageContainer}>
-   
-    <Carousel className={Style.Carousel} autoplay>
-      <div>
-        
+  // <div className=" flex justify-center self-center item-center w-full ">
+    <Carousel className="flex justify-center self-center h-[50%] w-[70%] mr-0"autoplay>
         <img
           className={Style.imageCSS}
-          src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg"
-          alt="test"
-          />
-          </div>
-
-        
+          src="SlideOne.png"
+        />
+      
+      <img
+        className={Style.imageCSS}
+        src="SlideTwo.png"
+      />
+       <img
+        className={Style.imageCSS}
+        src="SlideThree.png"
+      />
      
-     <div>
-     </div>
-        <img
-          className={Style.imageCSS}
-          src="https://i.imgur.com/n40QdrD.png"
-          />
-          
-     
-
-      {/* <div>
-        <img
-          className={Style.imageCSS}
-          src="https://i.imgur.com/DZQN7GR.png"
-        />
-      </div>
-      <div>
-        <img
-          className={Style.imageCSS}
-          src="https://i.imgur.com/yC2aMtf.png"
-        />
-      </div>
-      <div>
-        <img
-          className={Style.imageCSS}
-          src="https://www.rochdale.gov.uk/images/litter_pick.jpg"
-        />
-      </div> */}
     </Carousel>
-  </div>
+  //  </div>
 );
 
 export default ImageGallery;
