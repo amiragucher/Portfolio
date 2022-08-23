@@ -17,8 +17,9 @@ export default function Home() {
         </div>
         <div>
         <AboutMe/>
-        <ImageGallery/>
+       
     </div>
+    <ImageGallery/>
     </>
   )
 }
