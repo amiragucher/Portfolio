@@ -1,0 +1,15 @@
+.Titles{
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);    
+    font-style: italic;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.NavText{
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);    
+    font-style: italic;
+  
+}

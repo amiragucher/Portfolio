@@ -1,23 +1,19 @@
 import { Carousel } from "antd";
 import React from "react";
-import Style from "./ImageGallery.module.css";
 import 'antd/dist/antd.css';
 
 const ImageGallery = () => (
   // <div className=" flex justify-center self-center item-center w-full ">
-    <Carousel className="flex justify-center self-center h-[50%] w-[70%] mr-0"autoplay>
+    <Carousel className="flex justify-center self-center sm:mr-[15em] sm:ml-[15em]"autoplay>
         <img
-          className={Style.imageCSS}
-          src="SlideOne.png"
+          src="SlideOne.svg"
         />
       
       <img
-        className={Style.imageCSS}
-        src="SlideTwo.png"
+        src="SlideTwo.svg"
       />
        <img
-        className={Style.imageCSS}
-        src="SlideThree.png"
+        src="SlideThree.svg"
       />
      
     </Carousel>
