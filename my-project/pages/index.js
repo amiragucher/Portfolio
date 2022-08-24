@@ -4,7 +4,7 @@ import MainTitle from '../Components/MainTitle/MainTitle';
 import Avatar from '../Components/Avatar/Avatar';
 import AboutMe from '../Components/AboutMe/AboutMe';
 import ImageGallery from '../Components/ImageGallery/ImageGallery';
-import Style from "../Components/MainTitle/text.module.css"
+import Style from "../Components/MainTitle/Text.module.css"
 import Toolbox from '../Components/ToolBox/ToolBox';
 
 
