@@ -6,13 +6,14 @@ import AboutMe from '../Components/AboutMe/AboutMe';
 import ImageGallery from '../Components/ImageGallery/ImageGallery';
 import Style from "../Components/MainTitle/Text.module.css"
 import Toolbox from '../Components/ToolBox/ToolBox';
+import Toggle from '../Components/Navbar/Toggle';
 
 
 
 export default function Home() {
   return (
    <div className="bg-[#02979D]">
-    <Navbar/>
+    <Toggle/>
    <div className="flex">
     <MainTitle/>
     <Avatar/>

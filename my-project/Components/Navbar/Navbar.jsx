@@ -2,6 +2,7 @@ import Link from "next/link";
 import Style from "../MainTitle/Text.module.css"
 
 export default function Navbar() {
+    
     return (
         <div className={Style.NavText}>
         <div className="fixed z-[1002]">
