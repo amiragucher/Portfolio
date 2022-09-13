@@ -18,8 +18,8 @@ const PhoneMenu = () => {
 
   return (
     <>
-      <Button type="primary" onClick={()=>{console.log("Clicked!") ; showDrawer()}}>
-        <MenuOutlined className="h-10" />
+      <Button type="primary" className='ml-3 mt-3' style={{ background: "orange", borderColor: "orange"}} onClick={()=>{console.log("Clicked!") ; showDrawer()}}>
+        <MenuOutlined/>
       </Button>
       <Drawer getContainer={false} title="Basic Drawer" placement="left" onClose={onClose} visible={open}>
         
