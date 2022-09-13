@@ -1,4 +1,3 @@
-import Navbar from './Navbar';
 import { Button, Drawer } from 'antd';
 import { useState } from 'react';
 import 'antd/dist/antd.css';

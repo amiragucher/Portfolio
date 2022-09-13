@@ -14,11 +14,11 @@ export default function Home() {
   return (
    <div className="bg-[#02979D]">
     <Toggle/>
-   <div className="sm:flex">
+   <div className="sm:flex h-[50em] sm:h-[100%]">
     <MainTitle/>
     <Avatar/>
     </div>
-    <div>
+    <div id="aboutme">
     <AboutMe/>
      </div>
     <div className={Style.Titles}>
