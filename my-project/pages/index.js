@@ -14,7 +14,7 @@ export default function Home() {
   return (
    <div className="bg-[#02979D]">
     <Toggle/>
-   <div className="flex">
+   <div className="sm:flex">
     <MainTitle/>
     <Avatar/>
     </div>
