@@ -13,3 +13,8 @@ Welcome to my porfolio! My portfolio is deployed here: https://portfolio-agxxfer
 #F24E1E      ![enter image description here](https://i.imgur.com/ckML6zP.png)
 #BC0D0D ![enter image description here](https://i.imgur.com/S3qqtnS.png)
 #02979D ![enter image description here](https://i.imgur.com/OBth2LY.png)
+
+|Landing Page| Content|
+|--|--|
+| ![enter image description here](https://i.imgur.com/XMXazQM.png) | ![enter image description here](https://i.imgur.com/GXPxu0w.png) |
+
