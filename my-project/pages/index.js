@@ -7,6 +7,7 @@ import ImageGallery from '../Components/ImageGallery/ImageGallery';
 import Style from "../Components/MainTitle/Text.module.css"
 import Toolbox from '../Components/ToolBox/ToolBox';
 import Toggle from '../Components/Navbar/Toggle';
+import Projects from '../Components/Projects/Projects';
 
 
 
@@ -18,8 +19,10 @@ export default function Home() {
     <MainTitle/>
     <Avatar/>
     </div>
-    <div id="aboutme">
+    <div  id="aboutme">
+    <div>
     <AboutMe/>
+     </div>
      </div>
     <div className={Style.Titles}>
     <h1 className="flex justify-center text-6xl mb-4 mt-5 text-[#FF9D00]">UI/UX Designs</h1>
@@ -29,6 +32,8 @@ export default function Home() {
     <h1 className="flex justify-center text-6xl mb-4 mt-5 text-[#FF9D00]">ToolBox</h1>
     </div>
     <Toolbox/>
+    <Projects/>
     </div>
   )
 }
+ 
