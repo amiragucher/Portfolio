@@ -18,16 +18,14 @@ export default function Navbar() {
                         CV
                     </a>
                 </Link>
-                {/* <Link href="/#home" >   */}
+                <Link href="/#projects" >  
                 <a className="text-[#FFC44D] hidden md:flex items-center text-xl font-bold">
-                    Portfolio
+                    Projects
                 </a>
-                {/* </Link>
-                <Link href="/#home">   */}
+                </Link>
                 <a className="text-[#FFC44D] hidden md:flex items-center text-xl font-bold">
                     Contact
                 </a>
-                {/* </Link> */}
             </div>
             </div>
         </div>

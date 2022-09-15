@@ -19,7 +19,7 @@ export default function Home() {
     <MainTitle/>
     <Avatar/>
     </div>
-    <div  id="aboutme">
+    <div>
     <div>
     <AboutMe/>
      </div>

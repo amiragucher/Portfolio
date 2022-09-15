@@ -1,6 +1,7 @@
 export default function AboutMe (){
     return (
-        <div className="flex-col bg-red-700 drop-shadow-lg text-white font-bold p-5 h-full  w-full">
+       
+        <div id="aboutme" className="flex-col pt-[4em] bg-red-700 drop-shadow-lg text-white font-bold p-5 h-full  w-full">
             <div>
             <h1 className="text-5xl  sm:text-7xl w-[100%] drop-shadow-2xl text-white">About Me</h1>
             </div>
@@ -16,5 +17,6 @@ export default function AboutMe (){
 
             </p>
         </div>
+     
     )
 }
