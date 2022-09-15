@@ -5,7 +5,7 @@ export default function AboutMe (){
        
         <div id="aboutme" className="flex-col pt-[4em] bg-[#F24E1E] drop-shadow-lg text-[#FFC44D] font-bold p-5 h-full  w-full">
             <div className={Style.Titles}>
-            <h1 className="text-5xl  sm:text-7xl w-[100%] drop-shadow-2xl text-[#FFC44D]">About Me</h1>
+            <h1 className="text-5xl  sm:text-7xl w-[100%] drop-shadow-2xl font-extrabold text-[#FFC44D]">About Me</h1>
             </div>
             <p>Prior to studying at the School of Code my studies evolved around
                 Art and Design, and then Psychology. During the bootcamp I found

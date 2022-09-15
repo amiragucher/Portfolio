@@ -27,16 +27,16 @@ export default function Home() {
      </div>
      </div>
     <div className={Style.Titles}>
-    <h1 className="flex justify-center text-6xl mb-4 mt-[1em] text-[#FFC44D]">UI/UX Designs</h1>
+    <h1 className="flex justify-center text-6xl mb-4 mt-[1em] font-extrabold text-[#FFC44D]">UI/UX Designs</h1>
     </div>
     <ImageGallery/>
     <div className={Style.Titles}>
-    <h1 className="flex justify-center text-6xl mb-4 mt-5 text-[#FFC44D]">ToolBox</h1>
+    <h1 className="flex justify-center text-6xl mb-4 mt-5 font-extrabold text-[#FFC44D]">ToolBox</h1>
     </div>
     <Toolbox/>
     <Projects/>
     <div className={Style.Titles}>
-    <h1 className="flex justify-center text-6xl mb-4 mt-5 text-[#FFC44D]">Contact Me</h1>
+    <h1 className="flex justify-center text-6xl mb-4 mt-5 font-extrabold text-[#FFC44D]">Contact Me</h1>
     </div>
     <Contact/>
     <Footer/>
