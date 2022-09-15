@@ -22,9 +22,10 @@ const PhoneMenu = () => {
       </Button>
       <Drawer getContainer={false} title="Basic Drawer" placement="left" onClose={onClose} visible={open}>
         
-        <p>yooo mu</p>
-        <p>yooo mumma</p>
-        <p>yooo mumma</p>
+        <p>About Me</p>
+        <p>CV</p>
+        <p>Projects</p>
+        <p>Contact Me</p>
       </Drawer>
     </>
   );
