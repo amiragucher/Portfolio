@@ -20,13 +20,54 @@ const PhoneMenu = () => {
       <Button type="primary" className='ml-3 mt-3' style={{ background: "orange", borderColor: "orange"}} onClick={()=>{console.log("Clicked!") ; showDrawer()}}>
         <MenuOutlined/>
       </Button>
-      <Drawer getContainer={false} title="Basic Drawer" placement="left" onClose={onClose} visible={open}>
-        
-        <p>About Me</p>
-        <p>CV</p>
-        <p>Projects</p>
-        <p>Contact Me</p>
-      </Drawer>
+      <Drawer
+            title="Information"
+            placement="right"
+            onClose={onClose}
+            visible={open}
+            className="text-[#004F54]"
+          >
+            <ul className="flex flex-col ">
+              <div className="p-4 pt-10">
+                <a
+                  onClick={() => setOpen(false)}
+                  className="text-[#004F54] text-xl"
+                  href="#aboutme"
+                >
+                  About Me
+                </a>
+              </div>
+              <div className="p-4 ">
+                <a
+                  onClick={() => setOpen(false)}
+                  className="text-[#004F54] text-xl"
+                  href="/cv"
+                >
+                  CV
+                </a>
+              </div>
+              <div className="p-4">
+                <a
+                  onClick={() => setOpen(false)}
+                  className="text-[#004F54] text-xl"
+                  rel="noopener noreferrer"
+                  href="#projects"
+                >
+                  Projects
+                </a>
+              </div>
+              <div className="p-4">
+                <a
+                  onClick={() => setOpen(false)}
+                  className="text-[#004F54] text-xl"
+                  href="#contact"
+                >
+                  Contact
+                </a>
+              </div>
+           
+            </ul>
+          </Drawer>
     </>
   );
 };

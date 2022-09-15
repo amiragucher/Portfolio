@@ -18,12 +18,12 @@ export default function Navbar() {
                         CV
                     </a>
                 </Link>
-                <Link href="/#projects" >  
+                <Link href="#projects" >  
                 <a className="text-[#FFC44D] hidden md:flex items-center text-xl font-bold">
                     Projects
                 </a>
                 </Link>
-                <Link href="/#contact">
+                <Link href="#contact">
                 <a className="text-[#FFC44D] hidden md:flex items-center text-xl font-bold">
                     Contact
                 </a>
