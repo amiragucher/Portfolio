@@ -8,6 +8,8 @@ import Style from "../Components/MainTitle/Text.module.css"
 import Toolbox from '../Components/ToolBox/ToolBox';
 import Toggle from '../Components/Navbar/Toggle';
 import Projects from '../Components/Projects/Projects';
+import Footer from '../Components/Footer/Footer';
+import Contact from '../Components/Contact/Contact';
 
 
 
@@ -25,14 +27,19 @@ export default function Home() {
      </div>
      </div>
     <div className={Style.Titles}>
-    <h1 className="flex justify-center text-6xl mb-4 mt-5 text-[#FF9D00]">UI/UX Designs</h1>
+    <h1 className="flex justify-center text-6xl mb-4 mt-[1em] text-[#FFC44D]">UI/UX Designs</h1>
     </div>
     <ImageGallery/>
     <div className={Style.Titles}>
-    <h1 className="flex justify-center text-6xl mb-4 mt-5 text-[#FF9D00]">ToolBox</h1>
+    <h1 className="flex justify-center text-6xl mb-4 mt-5 text-[#FFC44D]">ToolBox</h1>
     </div>
     <Toolbox/>
     <Projects/>
+    <div className={Style.Titles}>
+    <h1 className="flex justify-center text-6xl mb-4 mt-5 text-[#FFC44D]">Contact Me</h1>
+    </div>
+    <Contact/>
+    <Footer/>
     </div>
   )
 }

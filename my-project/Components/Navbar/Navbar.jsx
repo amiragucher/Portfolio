@@ -23,9 +23,11 @@ export default function Navbar() {
                     Projects
                 </a>
                 </Link>
+                <Link href="/#contact">
                 <a className="text-[#FFC44D] hidden md:flex items-center text-xl font-bold">
                     Contact
                 </a>
+                </Link>
             </div>
             </div>
         </div>
