@@ -7,7 +7,7 @@ export default function (){
             <h1 className="flex justify-center text-6xl mb-4  text-[#FFC44D]">My Projects</h1>
             </div>
         <div className="sm:flex p-10  bg-[#F24E1E] rounded-md mr-5 ml-5">
-            <div className=" bg-[#FFC44D] rounded-md m-2 p-1">
+            <div className=" bg-white rounded-md m-2 p-1">
                 <h1 className="flex-col text-center text-xl">Project Clean-Up</h1>
                 <img src="./ProjectCleanup.png"/>
                 <h2>This project was my teams final app for our four week project at the School of Code. 
