@@ -12,7 +12,7 @@ export default function MainTitle() {
                 </div>
                 </div>
                 <div className="flex justify-center items-center">
-                <img src="./QRCode.svg" className="flex items-center  mt-10 sm:mt-[2em]" />
+                <img src="./QRCode.svg" className="flex items-center mt-10 sm:mt-[2em] sm:mb-[3em] " />
                 </div>
             </div>
 

@@ -12,7 +12,7 @@ export default function Navbar() {
                         About Me
                     </a>
                 </Link>
-                <Link href="/cv.pdf" >
+                <Link href="/cv.png">
 
                     <a className="text-[#FFC44D] hidden md:flex items-center text-xl font-bold">
                         CV
