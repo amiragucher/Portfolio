@@ -10,24 +10,27 @@ export default function (){
             <div className=" bg-[#FFC44D] rounded-md m-2 p-1">
                 <h1 className="flex-col text-center text-xl text-[#F24E1E]">Project Clean-Up</h1>
                 <img src="./ProjectCleanup.png"/>
-                <h2 className="text-[#F24E1E] font-bold">This project was my teams final app for our four week project at the School of Code. 
-                    We created this app to provide individuals with a platform that enables them to get 
-                    involved with cleaning up their local area. View here: <a className="underline text-[#02979D] "href="https://projectcleanup.netlify.app/">Project Clean-Up</a>
+                <h2 className="text-[#F24E1E] font-bold">The Project Clean-Up app was created 
+                during the School of Code final four week project. My team and I created this 
+                app to provide individuals with a platform that enables them to participate in 
+                clean up in their local area. View here: <a className="underline text-[#02979D] "href="https://projectcleanup.netlify.app/">Project Clean-Up</a>
                 </h2>
             </div>
             <div className="bg-[#FFC44D] rounded-md m-2 p-1">
                 <h1 className="flex-col text-center text-xl text-[#F24E1E]">To-Do List App</h1>
                 <img src="./ToDoList.png"/>
-                <h2 className="text-[#F24E1E] font-bold">During a hackathon I learn how to created a to do list in react. Following the hackathon I decided to 
-                    re-create the to do list app and created this app which allows the user to add to the list, edit the list
-                    and delete from the list. 
+                <h2 className="text-[#F24E1E] font-bold">During a Hackathon I learnt how to create a 
+                to-do-list app in React. Following the Hackathon I decided to re-create the to-do list 
+                app on my own to help me practice what I had learnt and created this all which allows the 
+                user to add to the list, delete from the list and edit the list.
                 </h2>
             </div>
             <div className="bg-[#FFC44D] rounded-md m-2 p-1">
                 <h1 className="flex-col text-center text-xl text-[#F24E1E]">Global News App</h1>
                 <img src="./NewsApp.png"/>
-                <h2 className="text-[#F24E1E] font-bold">I created this app in react as a side project and used a global news api. Whilst creating this app
-                    I was able to improve my css skills and I became more familiar with how to use react.
+                <h2 className="text-[#F24E1E] font-bold">This app was created as a side project 
+                and was created using a Global News API. Whilst creating this app I was able to 
+                improve my CSS skills and became more familiar with using. 
                 </h2>
             </div>
         </div>
