@@ -3,7 +3,7 @@
 export default function CV (){
     return(
         <div> 
-            <a src="./cv.PDF"/>
+            <a src="./cv.pdf"/>
         </div>
     )
 }
