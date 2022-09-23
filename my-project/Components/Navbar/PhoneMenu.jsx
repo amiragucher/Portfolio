@@ -25,13 +25,13 @@ const PhoneMenu = () => {
             placement="right"
             onClose={onClose}
             visible={open}
-            className="text-[#004F54]"
+            className="text-[#02979D] font-bold"
           >
             <ul className="flex flex-col ">
               <div className="p-4 pt-10">
                 <a
                   onClick={() => setOpen(false)}
-                  className="text-[#004F54] text-xl"
+                  className="text-[#02979D] text-xl"
                   href="#aboutme"
                 >
                   About Me
@@ -40,7 +40,7 @@ const PhoneMenu = () => {
               <div className="p-4 ">
                 <a
                   onClick={() => setOpen(false)}
-                  className="text-[#004F54] text-xl"
+                  className="text-[#02979D] text-xl"
                   href="/cv"
                 >
                   CV
@@ -49,7 +49,7 @@ const PhoneMenu = () => {
               <div className="p-4">
                 <a
                   onClick={() => setOpen(false)}
-                  className="text-[#004F54] text-xl"
+                  className="text-[#02979D] text-xl"
                   rel="noopener noreferrer"
                   href="#projects"
                 >
@@ -59,7 +59,7 @@ const PhoneMenu = () => {
               <div className="p-4">
                 <a
                   onClick={() => setOpen(false)}
-                  className="text-[#004F54] text-xl"
+                  className="text-[#02979D] text-xl"
                   href="#contact"
                 >
                   Contact
