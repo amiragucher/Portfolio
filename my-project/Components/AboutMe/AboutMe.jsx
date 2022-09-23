@@ -7,15 +7,16 @@ export default function AboutMe (){
             <div className={Style.Titles}>
             <h1 className="text-5xl  sm:text-7xl w-[100%] drop-shadow-2xl font-extrabold text-[#FFC44D]">About Me</h1>
             </div>
-            <p>Prior to studying at the School of Code my studies evolved around
-                Art and Design, and then Psychology. During the bootcamp I found
-                a true passion for coding which has only grown over time. I have
-                experience of working with people from all walks of life and have
-                gained the ability to work within a team and in an agile framework.
-                Through the School of Code, I have developed both leadership and
-                team work skills and the ability to problem solve and come up with
-                solutions. I am committed, hard working, pro-active and passionate
-                and am ready to contribute to a companies successes.
+            <p className="pr-[2em] pl-[2em]">Hi, my name is Amira! Welcome to my portfolio. 
+                Recently I graduated from the School of Code sixteen 
+                week intensive boot camp, during this time I learnt a wide 
+                variety of technologies which have given me the knowledge and 
+                skills to begin my career in tech. Before I began learning 
+                code I studied art and design whilst at college and then moved 
+                on to study Psychology at University. I am a highly creative 
+                individual and I take joy in learning, designing and thinking 
+                outside the box. My interests are in UI/UX design and front-end 
+                development.
 
             </p>
         </div>
