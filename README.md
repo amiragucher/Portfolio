@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my porfolio! My portfolio is deployed here: https://portfolio-agxxferj3-amiragucher.vercel.app/
+Welcome to my porfolio! My portfolio is deployed here: https://portfolio-s6v143ce1-amiragucher.vercel.app
 
 ## **Tech Stack**
 
@@ -16,5 +16,5 @@ Welcome to my porfolio! My portfolio is deployed here: https://portfolio-agxxfer
 
 |Landing Page| Content|
 |--|--|
-| ![enter image description here](https://i.imgur.com/XMXazQM.png) | ![enter image description here](https://i.imgur.com/GXPxu0w.png) |
+| ![enter image description here](https://i.imgur.com/Aw7lirg.png) | ![enter image description here](https://i.imgur.com/XQbTZvO.png) |
 
