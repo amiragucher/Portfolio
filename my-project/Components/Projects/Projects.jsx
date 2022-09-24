@@ -6,7 +6,7 @@ export default function (){
             <div className={Style.Titles}>
             <h1 className="flex justify-center text-6xl mb-4 font-extrabold text-[#FFC44D]">My Projects</h1>
             </div>
-        <div className="sm:flex p-10  bg-[#F24E1E] rounded-md mr-5 ml-5">
+        <div className="sm:flex p-10 mb-[5em] bg-[#F24E1E] rounded-md mr-5 ml-5">
             <div className=" bg-[#FFC44D] rounded-md m-2 p-1">
                 <h1 className="flex-col text-center text-xl text-[#F24E1E]">Project Clean-Up</h1>
                 <img src="./ProjectCleanup.png"/>
