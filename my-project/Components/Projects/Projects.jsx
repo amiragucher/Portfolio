@@ -22,7 +22,7 @@ export default function (){
                 <h2 className="text-[#F24E1E] font-bold">During a Hackathon I learnt how to create a 
                 to-do-list app in React. Following the Hackathon I decided to re-create the to-do list 
                 app on my own to help me practice what I had learnt and created this all which allows the 
-                user to add to the list, delete from the list and edit the list.
+                user to add to the list, delete from the list and edit the list.View here:  <a className="underline text-[#02979D] "href="https://github.com/amiragucher/To-Do-List-App">To-Do-List</a>
                 </h2>
             </div>
             <div className="bg-[#FFC44D] rounded-md m-2 p-1">
@@ -30,7 +30,7 @@ export default function (){
                 <img src="./NewsApp.png"/>
                 <h2 className="text-[#F24E1E] font-bold">This app was created as a side project 
                 and was created using a Global News API. Whilst creating this app I was able to 
-                improve my CSS skills and became more familiar with using. 
+                improve my CSS skills and became more familiar with using. View here: <a className="underline text-[#02979D] "href="https://github.com/amiragucher/News-App">Global News</a>
                 </h2>
             </div>
         </div>
