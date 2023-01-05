@@ -7,7 +7,7 @@ export default function ImageGallery (){
   // <div className=" flex justify-center self-center item-center w-full ">
     <Carousel className="flex justify-center self-center sm:mr-[15em] sm:ml-[15em]"autoplay>
         <img
-          src="SlideFive.svg"
+          src="SlideOne.svg"
         />
       
       <img
@@ -19,9 +19,7 @@ export default function ImageGallery (){
       <img
         src="SlideTwo.svg"
       />
-      <img
-        src="SlideOne.svg"
-      />
+
      
     </Carousel>
   //  </div>
